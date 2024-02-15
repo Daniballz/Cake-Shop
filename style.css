@@ -119,6 +119,10 @@
     transition: all 0.4s;
 }
 
+.hero header .topnav{
+    display: none;
+}
+
 .hero .intro{
     /* padding-top: 100px; */
     background: url(img/h1_hero1.jpg.webp) no-repeat center;
@@ -774,5 +778,358 @@
 .hero .blog .widgets .newsletter button:hover{
     color: white;
     background-color: orange;
+}
+
+
+@media screen and (max-width: 430px){
+    .hero header nav{
+        display: none;
+    } 
+
+    .hero header button{
+        display: none;
+    } 
+
+    .hero header .social{
+        display: none;
+    } 
+
+    .hero header .topnav{
+        display: block;
+    }
+
+    .hero header{
+        height: 50px;
+        width: 430px;
+    }
+    
+    .hero header a img{
+        height: 35px;
+        margin: 10px 0 0 -80px;
+    }
+    
+    .hero header .topnav{
+        position: relative;
+    }
+
+    .hero header .topnav .icon{
+        /* margin-right: -30px; */
+        position: absolute;
+        right: -70px;
+        top: -10px;
+    }
+
+    .hero header .topnav a{
+        color: orange;
+    }
+
+    .hero header .topnav #myLinks{
+        position: absolute;
+        right: -101px;
+        top: 25px;
+        width: 430px;
+        background-color: orange;
+        opacity: 0;
+        transform: scale(0);
+        transition: .6s ease opacity,.6s ease transform;
+    }
+
+    .hero header .topnav #myLinks a{
+        display: block;
+        text-decoration: none;
+        padding: 8px 8px;
+        margin-left: 10px;
+        text-align: left;
+        color: #f1f1f1;
+    }
+
+    .hero header .topnav #myLinks a:hover{
+        color: orange;
+        background-color: white;
+    }
+
+    .hero .intro{
+        background: url(img/h1_hero1.jpg.webp) no-repeat center/cover;
+        height: 300px;
+        width: 430px;
+        /* margin-top: -20px; */
+    }
+    
+    .hero .intro h1{
+        color: white;
+        position: absolute;
+        top: -180px;
+        left: -140px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+    .hero .intro button{
+        font-size: 15px;
+        background-color: orange;
+        border: none;
+        font-weight: 700;
+        margin: 220px 0 0 10px;
+        height: 40px;
+        width: 100px;
+        padding: 5px;
+        
+    }
+
+    .hero .about{
+        padding: 0;
+        width: 430px;
+        padding-bottom: 250px;
+    }
+    
+    .hero .about h1{        
+        padding: 20px 0;
+        font-size: 25px;
+    }
+    
+    .hero .about h3{
+        width: 100%;
+        margin: 0;
+        padding: 0 0 10px 20px;
+        font-size: 20px;
+    }
+    
+    .hero .about p{
+        width: 93%;
+        padding-left: 20px;
+        margin: 0;
+    }
+    
+    .hero .about img{
+        float: none;
+        height: 200px;
+        width: 90%;
+        position: absolute;
+        top: 790px;
+        margin-left: 21px;
+    }
+
+    .hero .items{
+        padding: 0;
+        flex-wrap: wrap;
+        width: 430px;
+    }
+    
+    .hero .items .item{
+        width: 40%;
+    }
+
+    .hero .items .item img{
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    
+    .hero .items .item p{
+        font-size: 18px;
+        /* padding: 10px 0 0; */
+    }
+    
+    .hero .items .item p.price{
+        font-size: 17px;
+    }
+    
+    .hero .video{
+        width: 430px;
+    }
+    .hero .video video{
+        width: 80%;
+        margin: 0 0 0 44px;
+        border: none;
+    }    
+
+    .hero .review{
+        padding: 40px 0 0 0;
+        width: 430px;
+        border: none;
+    }
+    
+    .hero .review h1{
+        font-size: 25px;
+        padding: 0 0 40px 0;
+    }
+    
+    .hero .review .replies{
+        flex-direction: column;
+        padding: 0;
+        border: none;
+
+    }
+    
+    .hero .review .replies .reply{
+        font-size: 17px;
+        width: 300px;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+        padding: 0px 0px;
+    }
+    
+    .hero .review .replies .reply p{
+        padding-bottom: 0px;
+    }
+    
+    .hero .review .replies .reply p.person{
+        padding-bottom:  30px;
+        padding-top: 15px;
+    }
+    
+    .hero .blogs{
+        background-color: black;
+        color: white;
+        padding-top: 70px;
+        padding-bottom: 20px;
+        width: 430px;
+    }
+    
+    .hero .blogs h1{
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    
+    .hero .blogs button{
+        padding: 10px 30px;
+        margin-top: -25px;
+        border-color: orange;
+        margin-right: 40px;
+        border-width: 1px;
+        font-weight: 900;
+    }
+    
+    .hero .blogs .posts{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    
+    .hero .blogs .posts .post{
+        flex-direction: column;
+        height: 380px;
+        width: 150%;
+        margin-left: 200px;
+        padding-bottom: 40px;
+    }
+    
+    
+    .hero .blogs .posts .post .write{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px 20px;
+        border: solid 1px grey;
+        font-size: 10px;
+        text-align: justify;
+    }
+    
+    .hero .blogs .posts .post .write h2{
+        padding-bottom: 15px;
+    }
+
+    .hero .blogs .posts .post .write p{
+        padding-bottom: 15px;
+    }
+    
+    .hero .blogs .posts .post img{
+        width: 100%;
+        height: 220px;
+        /* display: none; */
+    }
+
+
+    .hero .follow{
+        background-color: black;
+        color: white;
+        width: 430px;
+    }
+    
+    .hero .follow h1{
+        font-size: 30px;
+    }
+    
+    .hero .follow a {
+        margin-left: 170px;
+        font-size: 15px;
+        border: solid 1px;
+        padding: 10px;
+    } 
+    
+    .hero .follow .insta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+    }
+    
+    .hero .follow .insta img{
+        padding: 20px 0;
+    }
+    
+    .hero .foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px 0px;
+        width: 430px;
+    }
+
+    .hero .foot img{
+        width: 50%;
+        margin-left: 7px;
+    }
+    
+    .hero .foot ul{
+        margin-left: -10px;
+    }
+
+    .hero .foot ul li a{
+        font-size: 14px;
+    }
+    
+    .hero .footrow{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0px;
+        border-bottom: solid 1px;
+        width: 430px;
+    }
+    
+    .hero .footrow .cont{
+        width: 100%;
+        padding-top: 50px;
+        margin-left: 10px;
+    }
+    
+    .hero .footrow .cont p{
+        padding-bottom: 30px;
+        font-size: 15px;
+        font-family: 'Jost', sans-serif;
+    }
+    
+    .hero .footrow .cont a button{
+        border: solid 1px;
+        width: 120px;
+    }
+    
+    .hero .footrow .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .hero .footrow .info .location, .hero .footrow .info .contact{
+        width: 100%;
+        font-size: 15px;
+        padding: 30px 0 30px 10px;
+    }    
+
+    .hero .end{
+        width: 430px;
+    }    
 }
 

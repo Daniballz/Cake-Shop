@@ -910,7 +910,7 @@
     }
 
     .hero .items{
-        padding: 0;
+        padding: 0 0 50px 0;
         flex-wrap: wrap;
         width: 430px;
     }
@@ -926,7 +926,6 @@
     
     .hero .items .item p{
         font-size: 18px;
-        /* padding: 10px 0 0; */
     }
     
     .hero .items .item p.price{
@@ -1010,8 +1009,9 @@
         flex-direction: column;
         height: 380px;
         width: 150%;
-        margin-left: 200px;
+        margin-left: 185px;
         padding-bottom: 40px;
+        margin-right: 19px;
     }
     
     
@@ -1131,5 +1131,282 @@
     .hero .end{
         width: 430px;
     }    
+
+    /* Start of Cake */
+    .hero .cIntro h1{
+        margin: 100px 0 0 20px;
+        font-size: 30px;
+    }
+
+    .hero .cakes{
+        padding: 50px 0;
+    }
+    /* End of Cake */
+
+    /* Start of About */
+    .hero .abIntro h1{
+        margin: 90px 0 0 25px;
+        font-size: 40px;
+    }
+    /* End of About */
+    
+    /* Start of Contact */
+    .hero .coIntro h1{
+        margin: 110px 0 0 10px;
+        font-size: 35px;
+    }
+    
+    .hero .map{
+        /* text-align: center;
+        background-color: black;
+        padding: 100px 0; */
+        width: 430px;
+        padding: 40px 0px;
+    }
+
+    .hero .map iframe{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .hero .message{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 70px;
+        padding-top: 40px;
+        width: 430px;
+    }
+
+    .hero .message h2{
+        margin-left: 10px;
+    }
+    
+    .hero .message .form form input{
+        width: 40%;
+        margin: 20px 0;
+        text-indent: 10px;
+        margin-left: 10px;     
+        margin-right: 25px;
+    }
+    
+    .hero .message .form form input.width{
+        width: 90%;
+    }
+    
+    .hero .message .form form button{
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+    /* End of Contact */
+
+    /* Start of Blog */
+.hero .blIntro{
+    height: 300px;
 }
 
+.hero .blIntro h1{
+    margin: 185px 0 0 5px;
+    font-size: 40px;
+}
+
+.hero .blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20px;
+    width: 390px;
+}
+
+.hero .blog .posters{
+    padding: 0;      
+}
+
+.hero .blog .posters .poster{
+    width: 100%;
+    position: relative;
+}
+
+.hero .blog .posters .poster .article .date{
+    position: absolute;
+    margin-left: 20px;
+    top: 150px;
+}
+
+.hero .blog .posters .poster .article .date h2{
+    margin-left: -5px;
+}
+
+.hero .blog .posters .poster h2{
+    padding: 40px 0 20px 20px;
+    width: 100%;
+    color: white;
+}
+
+.hero .blog .widgets{
+    padding-top: 0;
+    width: 100%;
+    margin-left: 0;
+    padding-bottom: 30px;
+}
+
+
+/* .hero .blog .widgets .search{
+    display: inline;
+    background-color: white;
+}
+
+.hero .blog .widgets .search form{
+    background-color: white;
+    width: 300px;
+    height: 100px;
+}
+
+.hero .blog .widgets .search form input{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 15px 20px; 
+    border: solid .1px;
+} 
+
+.hero .blog .widgets .search form button{
+    background-color: orange;
+    color: white;
+    padding: 12px 12px 14px 12px;
+    border: none;
+    font-size: 20px;
+}
+
+.hero .blog .widgets .category{
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    width: 300px;
+    text-indent: 15px;
+}
+
+.hero .blog .widgets .category p{
+    padding: 15px 0;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.hero .blog .widgets .category h2{
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.hero .blog .widgets .recents{
+    background-color: white;
+    color: black;
+    width: 300px;
+    margin-top: 30px;
+    text-indent: 20px;
+}
+
+.hero .blog .widgets .recents h2{
+    padding: 20px 0;
+    font-weight: 100;
+}
+
+.hero .blog .widgets .recents p{
+    padding: 20px 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.hero .blog .widgets .tag{
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    width: 300px;    
+    padding-bottom: 30px;
+}
+
+.hero .blog .widgets .tag h2{
+    text-indent: 14px;
+    font-weight: 100;
+    padding: 20px 0 20px 0;
+}
+
+.hero .blog .widgets .tag p{
+    text-align: justify;
+    text-indent: 15px;
+    margin-top: 10px;
+}
+
+.hero .blog .widgets .tag p button{
+    color: rgb(255, 166, 2);
+    background-color: white;
+    border: solid 1px rgb(180, 175, 175);
+    padding: 10px 14px;
+    font-weight: 600;
+}
+
+.hero .blog .widgets .tag p button:hover{
+    color: white;
+    background-color: orange;
+}
+
+.hero .blog .widgets .feeds{
+    color: black;
+    background-color: white;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.hero .blog .widgets .feeds h2{
+    text-indent: 17px;
+    padding: 20px 0;
+}
+
+.hero .blog .widgets .feeds p{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero .blog .widgets .feeds p img{
+    padding: 10px 5px;
+}
+
+.hero .blog .widgets .newsletter{
+    width: 300px;
+    color: black;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .blog .widgets .newsletter h2{
+    text-indent: 15px;
+    padding: 20px 0;
+}
+
+.hero .blog .widgets .newsletter input{
+    width: 250px;
+    margin-left: 14px;
+    padding: 10px 10px;
+    margin-top: 40px;
+    border: solid .1px;
+}
+
+.hero .blog .widgets .newsletter button{
+    width: 275px;
+    padding: 15px;
+    margin-left: 14px;
+    margin-top: 30px;
+    color: orange;
+    background-color: white;
+    border: solid 1px;
+    margin-bottom: 30px;
+}
+
+.hero .blog .widgets .newsletter button:hover{
+    color: white;
+    background-color: orange;
+} */
+/* End of Blog */
+}

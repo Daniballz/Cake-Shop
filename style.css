@@ -782,6 +782,10 @@
 
 
 @media screen and (max-width: 430px){
+    .hero{
+        width: 450px;
+    }
+
     .hero header nav{
         display: none;
     } 
@@ -800,7 +804,7 @@
 
     .hero header{
         height: 50px;
-        width: 430px;
+        width: 450px;
     }
     
     .hero header a img{
@@ -827,7 +831,7 @@
         position: absolute;
         right: -101px;
         top: 25px;
-        width: 430px;
+        width: 450px;
         background-color: orange;
         opacity: 0;
         transform: scale(0);
@@ -851,7 +855,7 @@
     .hero .intro{
         background: url(img/h1_hero1.jpg.webp) no-repeat center/cover;
         height: 300px;
-        width: 430px;
+        width: 450px;
         /* margin-top: -20px; */
     }
     
@@ -878,7 +882,7 @@
 
     .hero .about{
         padding: 0;
-        width: 430px;
+        width: 450px;
         padding-bottom: 250px;
     }
     
@@ -912,7 +916,7 @@
     .hero .items{
         padding: 0 0 50px 0;
         flex-wrap: wrap;
-        width: 430px;
+        width: 450px;
     }
     
     .hero .items .item{
@@ -933,7 +937,7 @@
     }
     
     .hero .video{
-        width: 430px;
+        width: 450px;
     }
     .hero .video video{
         width: 80%;
@@ -943,7 +947,7 @@
 
     .hero .review{
         padding: 40px 0 0 0;
-        width: 430px;
+        width: 450px;
         border: none;
     }
     
@@ -983,7 +987,7 @@
         color: white;
         padding-top: 70px;
         padding-bottom: 20px;
-        width: 430px;
+        width: 450px;
     }
     
     .hero .blogs h1{
@@ -1043,7 +1047,7 @@
     .hero .follow{
         background-color: black;
         color: white;
-        width: 430px;
+        width: 450px;
     }
     
     .hero .follow h1{
@@ -1074,7 +1078,7 @@
         flex-direction: column;
         justify-content: space-around;
         padding: 10px 0px;
-        width: 430px;
+        width: 450px;
     }
 
     .hero .foot img{
@@ -1096,7 +1100,7 @@
         justify-content: space-around;
         padding: 0px;
         border-bottom: solid 1px;
-        width: 430px;
+        width: 450px;
     }
     
     .hero .footrow .cont{
@@ -1109,6 +1113,8 @@
         padding-bottom: 30px;
         font-size: 15px;
         font-family: 'Jost', sans-serif;
+        width: 380px;
+        text-align: justify;
     }
     
     .hero .footrow .cont a button{
@@ -1129,7 +1135,7 @@
     }    
 
     .hero .end{
-        width: 430px;
+        width: 450px;
     }    
 
     /* Start of Cake */
@@ -1160,7 +1166,7 @@
         /* text-align: center;
         background-color: black;
         padding: 100px 0; */
-        width: 430px;
+        width: 450px;
         padding: 40px 0px;
     }
 
@@ -1175,7 +1181,7 @@
         justify-content: space-around;
         padding-bottom: 70px;
         padding-top: 40px;
-        width: 430px;
+        width: 450px;
     }
 
     .hero .message h2{
